@@ -1,2 +1,5 @@
 ## A directory for misellaneous stuff. 
-Nothing really relevant should be here!
+Waleed Binselim - N02575037
+
+Nothing important belongs here. 
+

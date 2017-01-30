@@ -1,2 +1,5 @@
 # ELSpring2017
-Template for Spring 2017 Embedded Linux class This is a template for students to clone for their work in the class. You should maintain the directory structure
+
+Waleed Binselim - N02575037 
+
+This repository is for the students in Embedded Linux class to Fork and Clone. Then to modify the cloned repository.
