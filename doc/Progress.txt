@@ -1,0 +1,68 @@
+﻿04/19/2017
+
+
+Interim Report
+
+
+Group:
+
+
+Waleed Binselim
+Hoang Nguyen
+Stephanie Fernandez
+
+
+ 
+1. Project
+For this project, the raspberry pi will be used to create a building’s heat and humidity profile. This will be done by using sensors to collect temperature and humidity data and then saving it to a local database. A robust, attention-free, easily deployable system will be created that integrates data from different sources and allows a non-technical user to access the building data at any specified time. A website will be created to save the data from multiple pi’s to a remote server that authorized persons can log into. The pi’s will be stored inside of a box, that will be 3D printed and the data from the pi’s will go into an sqlite3 database. From the database, the data will be transferred into a website, where the three group members can log onto with different logins.
+
+
+2. Work done so far
+* Sqlite3 database has been created by Waleed
+   * The database holds all temperature and humidity logs with date and time. 
+
+
+* Website has been created by Hoang using the raspberry pi by installing Apache.
+   * Hoang is able to edit the website however we see fit.
+
+
+* Sketches and models have been made by Stephanie of the box that will be 3D printed. 
+
+
+3. Work that needs to be done in the next three weeks
+        In the next three weeks, the data on the database will need to be able to go onto the website and be accessible to authorized persons with logins. A graph for the individual data profile and stacked curves for the cumulative view will need to be made. The box will need to be finished designed and 3D printed. The pi and breadboard will need to fit inside the box and be easy to use. 
+
+
+
+
+
+
+4. Contribution of each partner
+        
+Waleed
+Done: 
+* Set up the temperature/humidity sensor (DHT22) with the Raspberry Pi3 using Adafruit’s library in Github
+* Logged the output of humidity and temperature in two tables in sqlite3 database including the time and date
+        Need to do: 
+* Need to send the data to the website
+* Need to create username for the website
+        
+Hoang
+        Done: 
+* Made the website with Apache on the pi
+* Can edit the website
+        Need to do: 
+* Need to receive the data on the website from the database
+* Need to create login system for the website
+        
+Stephanie
+        Done: 
+* Made sketches and started modeling on Solidworks the box that will be 3D printed
+        Need to do: 
+* Need to 3D print the box (waiting to know what will need to be inside box)
+* Need to assemble the pi, breadboard, and wiring inside the box
+* Need to create username for the website
+
+
+        All
+* Need to create individual data profile in a graph and a cumulative view as stacked curves
